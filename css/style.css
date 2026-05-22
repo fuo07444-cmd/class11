@@ -1,0 +1,25 @@
+td.card {
+  width: 80px;
+  height: 110px;
+  border: 1px solid #555;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 28px;
+  background-color: white;
+  box-shadow: rgba(0,0,0,0.3) 4px 4px;
+  font-weight: bold;
+}
+
+td.back {
+  background-image: url("../images/card.png");
+  background-size: 80px 110px;
+}
+
+/* スート別の色 */
+.spade, .club {
+  color: black;
+}
+
+.heart, .diamond {
+  color: red;
+}
